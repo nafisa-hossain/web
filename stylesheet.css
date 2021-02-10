@@ -1,0 +1,18 @@
+body {
+	background-color: orange;
+}
+h1 { 
+	color: cornflowerblue; 
+	border: thick double #32a1ce black;
+	font: italic
+	      2.4em sans-serif;
+}
+p { 
+	color: rgb(76,0, 148);
+}
+h2 {
+	color: purple;
+}
+ul {
+	color:black;
+}
