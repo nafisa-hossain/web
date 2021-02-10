@@ -1,0 +1,18 @@
+body {
+	background-color: chocolate;
+}
+h1 { 
+	color: DimGrey; 
+	border: thick double #32a1ce;
+	font: italic
+	      2.4em Apple Chancery;
+}
+p { 
+	color: rgb(102, 102, 153);
+}
+h2 {
+	color:black;
+}
+ul {
+	color:black;
+}
