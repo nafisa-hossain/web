@@ -1,17 +1,17 @@
 body {
-	background-color: orange;
+	background-color: chocolate;
 }
 h1 { 
-	color: cornflowerblue; 
-	border: thick double #32a1ce black;
+	color: DimGrey; 
+	border: thick double #32a1ce;
 	font: italic
-	      2.4em sans-serif;
+	      2.4em Apple Chancery;
 }
 p { 
-	color: rgb(76,0, 148);
+	color: rgb(102, 102, 153);
 }
 h2 {
-	color: purple;
+	color:black;
 }
 ul {
 	color:black;
