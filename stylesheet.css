@@ -1,0 +1,23 @@
+body {
+	background-color: Peru;
+	font: "Fira Sans", serif;
+	border:4mm ridge black;
+	
+}
+h1 { 
+	color: DimGrey;
+	font: "Fira Sans", serif;
+}
+p { 
+	color: cornsilk;
+}
+h2 {
+	color: DimGrey;
+	font: "Fira Sans", serif;
+}
+ul {
+	color: DimGrey;
+}
+li {
+	color: cornsilk;
+}
