@@ -1,18 +1,20 @@
 body {
-	background-color: chocolate;
+	background-color: Peru;
+	font: "Fira Sans", italic;
+	border:4mm ridge black;
+	
 }
 h1 { 
-	color: DimGrey; 
-	border: thick double #32a1ce;
-	font: italic
-	      2.4em Apple Chancery;
+	color: DimGrey;
+	font: "Apple Chancery", oblique;
 }
 p { 
-	color: rgb(102, 102, 153);
+	color: cornsilk;
 }
 h2 {
-	color:black;
+	color: DimGrey;
+	font: "Apple Chancery", oblique;
 }
 ul {
-	color:black;
+	color: DimGrey;
 }
