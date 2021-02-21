@@ -34,9 +34,9 @@ li {
 }
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: DimGrey;
 }
 .topnav a.active {
   background-color: #d88e27;
-  color: white;
+  color: cornsilk;
 }
