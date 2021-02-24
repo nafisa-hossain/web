@@ -44,7 +44,7 @@ li a:hover {
 li a:active {
   background-color: #353432;
 }
-#navbar li {
+.navbar li {
 	overflow: hidden;
 	list-style-type: none;
 	margin: 0;
