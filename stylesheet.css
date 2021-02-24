@@ -17,6 +17,9 @@ p {
 	color: cornsilk;
 	line-height: 25px;
 }
+a {
+	color: cornsilk
+}
 #tabs li {
 	float:left;
 	color: cornsilk;
@@ -37,7 +40,6 @@ p {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	list-style-type: none;
 }
 li a:hover {
   background-color: #ddd;
