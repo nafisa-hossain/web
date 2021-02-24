@@ -18,15 +18,13 @@ p {
 	line-height: 25px;
 }
 #tabs li {
-	float:right;
+	float:left;
 	color: cornsilk;
 	display: inline-block;
-        font-size: 20px;
-        padding: 20px;
+	list-style-type: none;
 }
 #tabs {
   background-color: #ddd; 
-  list-style-type: none;
   text-align: center;
   margin: 0;
   padding: 0;
