@@ -27,25 +27,13 @@ a {
 	list-style-type: none;
 	padding-right: 40px
 }
-#tabs { 
-  overflow: hidden
-  margin: 0;
-  padding: 0;
-}
 #tabs li a {
 	overflow: hidden;
 	margin: 0;
-	padding: 8px;
 	background-color: #333;
 	text-decoration: none;
-	position: relative;
+	position: fixed;
 	top: 0;
 	width: 100%;
 	display:block;
-}
-li a:hover {
-  background-color: #ddd;
-}
-li a:active {
-  background-color: #353432;
 }
