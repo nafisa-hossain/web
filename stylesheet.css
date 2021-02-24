@@ -10,22 +10,11 @@ h1 {
 }
 p { 
 	color: cornsilk;
-	line-height:25px;
 }
 h2 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
-	margin:0px;
-}
-ul {
-	overflow: hidden;
-	list-style-type: none;
-	margin: 0;
-	padding: 10;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
+	margin:0;
 }
 #tabs li {
 	float:left;
@@ -46,4 +35,14 @@ li a:hover {
 }
 li a:active {
   background-color: #353432;
+}
+.navbar li {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
