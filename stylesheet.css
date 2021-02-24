@@ -22,18 +22,22 @@ a {
 }
 #tabs li {
 	float:left;
-	color: cornsilk;
-	display: inline-block;
-	list-style-type: none;
-	padding-right: 40px
 }
 #tabs li a {
-	overflow: hidden;
+	padding: 14px 16px;
+	text-decoration: none;
 	margin: 0;
 	background-color: #333;
-	text-decoration: none;
-	position: fixed;
-	top: 0;
-	width: 100%;
+	text-align: center;
 	display:block;
+}
+#tab {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
 }
