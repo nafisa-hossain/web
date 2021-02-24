@@ -20,8 +20,18 @@ p {
 #tabs li {
 	float:right;
 	color: cornsilk;
+	display: inline-block;
+        font-size: 20px;
+        padding: 20px;
 }
-.navbar li a {
+#tabs {
+  background-color: #ddd; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#tabs li a {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
