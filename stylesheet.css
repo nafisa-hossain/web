@@ -12,11 +12,16 @@ h2 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
 	margin:0px;
+}
 p { 
 	color: cornsilk;
 	line-height: 25px;
 }
-li a {
+#tabs li {
+	float:left;
+	color: cornsilk;
+}
+#tabs li a {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
