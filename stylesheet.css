@@ -13,7 +13,7 @@ p {
 h2 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
-	margin-left: 10px;
+	margin: 0;
 }
 ul {
 	overflow: hidden;
