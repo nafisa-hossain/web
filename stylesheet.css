@@ -8,40 +8,11 @@ h1 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
 }
-p { 
-	color: cornsilk;
-}
 h2 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
-	margin:0;
-}
-#tabs li {
-	float:left;
+	margin:0px;
+p { 
 	color: cornsilk;
-}
-#tabs li a {
-  color: cornsilk;
-  display:block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  position: fixed;
-}
-li a:hover {
-  background-color: #ddd;
-}
-li a:active {
-  background-color: #353432;
-}
-ul {
-	overflow: hidden;
-	margin: 0;
-	padding: 0;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	list-style-type: none;
+	line-height: 25px;
 }
