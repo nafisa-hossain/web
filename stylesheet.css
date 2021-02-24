@@ -45,13 +45,3 @@ li a:hover {
 li a:active {
   background-color: #353432;
 }
-.navbar li {
-	overflow: hidden;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
