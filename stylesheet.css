@@ -16,7 +16,7 @@ p {
 	color: cornsilk;
 	line-height: 25px;
 }
-#tabs li {
+.navbar li {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
