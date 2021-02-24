@@ -10,14 +10,11 @@ h1 {
 p { 
 	color: cornsilk;
 	background-position: center;
-	margin-left: 90px;
-	margin-top: 70px;
 }
 h2 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
-	margin-left: 90px;
-	margin-top: 70px
+	margin-left: 10px;
 }
 ul {
 	overflow: hidden;
