@@ -55,13 +55,3 @@ li a:active {
 	top: 0;
 	width: 100%;
 }
-.navbar ul {
-	overflow: hidden;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #333;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
