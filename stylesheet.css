@@ -16,7 +16,7 @@ p {
 	color: cornsilk;
 	line-height: 25px;
 }
-.navbar li {
+li a {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
@@ -25,4 +25,10 @@ p {
 	top: 0;
 	width: 75%;
 	list-style-type: none;
+}
+li a:hover {
+  background-color: #ddd;
+}
+li a:active {
+  background-color: #353432;
 }
