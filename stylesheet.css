@@ -16,7 +16,7 @@ h2 {
 	font: "Fira Sans", serif;
 	margin:0;
 }
-#tabs li {
+#tabs li a {
 	float:left;
 	color: cornsilk;
 	list-style-type: none;
