@@ -2,12 +2,11 @@ body {
 	background-color: Peru;
 	font: "Fira Sans", serif;
 	border:4mm ridge black;
-	margin:0;
+	margin:0px;
 }
 h1 { 
 	color: DimGrey;
 	font: "Fira Sans", serif;
-	top:16
 }
 p { 
 	color: cornsilk;
@@ -27,21 +26,34 @@ ul {
 	top: 0;
 	width: 100%;
 }
-li {
+#tabs li {
 	float:left;
 	color: cornsilk;
+	list-style-type: none;
+	display: in-line block;
 }
-li a {
+#tabs li a {
   color: cornsilk;
   display:block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  position: fixed;
 }
 li a:hover {
   background-color: #ddd;
 }
 li a:active {
   background-color: #353432;
+}
+.navbar {
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
