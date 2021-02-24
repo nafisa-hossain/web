@@ -18,7 +18,7 @@ p {
 	line-height: 25px;
 }
 a {
-	color: cornsilk
+	color: cornsilk;
 }
 #tabs li {
 	float:left;
@@ -28,18 +28,19 @@ a {
 }
 #tabs {
   background-color: #ddd; 
-  text-align: center;
+  overflow: hidden
   margin: 0;
   padding: 0;
 }
 #tabs li a {
 	overflow: hidden;
 	margin: 0;
-	padding: 0;
+	padding: 8px;
 	background-color: #333;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	display:block;
 }
 li a:hover {
   background-color: #ddd;
