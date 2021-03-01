@@ -1,8 +1,8 @@
 body {
 	background-color: Peru;
 	font: "Fira Sans", serif;
-	border:4mm ridge black;
-	margin:0px;
+	border: 4mm ridge black;
+	margin: 0px;
 }
 h1 { 
 	color: DimGrey;
@@ -11,7 +11,10 @@ h1 {
 h2 {
 	color: DimGrey;
 	font: "Fira Sans", serif;
-	margin:0px;
+}
+h3 {
+	color: DimGrey;
+	font: "Fira Sans", serif;
 }
 p { 
 	color: cornsilk;
