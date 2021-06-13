@@ -1,5 +1,5 @@
 header{
-	height: 80px;
+	height: 50px;
 	line-height: 10px;
 	position: fixed;
 	z-index:1;
@@ -15,6 +15,16 @@ header{
 	padding-left: 50px;
 	text-decoration: none;
 	display: inline-block;
+}
+.currentpage a {
+	text-decoration: none;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-family: Helvetica;
+	display: block;
+	overflow: hidden;
+	padding: 10px 20px;
 }
 header nav {
 	float: right;
@@ -104,12 +114,4 @@ img#piece{
   margin-right: auto;
   width: 400px;
 border: solid #663300;
-}
-
-figure#fork{
-	float: right;
-}
-figcaption{
-	  text-align: center;
-	  font-size: 10px;
 }
