@@ -84,14 +84,14 @@ header nav {
 
 #menu1 li {
 	list-style: none;
-	display: inline-block; /*from original css*/
+	display: inline-block;
 
 }
 
 #menu1 li:not(.current-page) a {
 	text-decoration: none;
 	position: relative;
-	color: #dbd6d0; /*change later*/
+	color: #dbd6d0;
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
@@ -103,7 +103,7 @@ header nav {
 .current-page a {
 	text-decoration: none;
 	position: relative;
-	color: #623f58; /*change later*/
+	color: #623f58; 
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
@@ -117,6 +117,7 @@ header nav {
 	width: 45px;
 	position: absolute;
 	border-bottom: 4px black;
+	bottom: 0;
 	right: 200px;
 	transition: 0.85s all;
 }
