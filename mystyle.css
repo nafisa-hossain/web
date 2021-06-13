@@ -83,13 +83,12 @@ header nav {
 }
 
 #menu li {
-	list-style: none;
 	display: inline-block;
-
 }
 
 #menu li a {
 	text-decoration: none;
+	position: relative;
 	float: right;
 	color: #3e3731;
 	font-size: 18px;
@@ -102,6 +101,7 @@ header nav {
 #menu li a:before {
 	content: '';
 	width: 30px;
+	position: absolute;
 	border-bottom: 3px solid #623F55;
 	bottom: 0;
 	right: 350px;
