@@ -77,19 +77,23 @@ figcaption{
 	  font-size: 10px;
 }
 
+header nav {
+	float: right;
+	padding-right: 40px;
+}
+
 #menu li {
 	list-style: none;
-	display: inline-block; /*from original css*/
+	display: inline-block;
 
 }
 
 #menu li a {
 	text-decoration: none;
-	position: relative;
-	color: #3e3731; /*change later*/
+	float: right;
+	color: #3e3731;
 	font-size: 18px;
-	font-variant-caps: small-caps;
-	font-family: sans-serif;
+	font-family: Helvetica, sans-serif;
 	display: block;
 	overflow: hidden;
 	padding: 10px 20px;
@@ -98,7 +102,6 @@ figcaption{
 #menu li a:before {
 	content: '';
 	width: 30px;
-	position: absolute;
 	border-bottom: 3px solid #623F55;
 	bottom: 0;
 	right: 350px;
