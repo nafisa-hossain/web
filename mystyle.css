@@ -76,6 +76,10 @@ figcaption{
 	  text-align: center;
 	  font-size: 10px;
 }
+header nav {
+	float: right;
+	padding-right: 40px;
+}
 
 #menu li {
 	list-style: none;
@@ -86,7 +90,7 @@ figcaption{
 #menu li:not(.current-page) a {
 	text-decoration: none;
 	position: relative;
-	color: #dbd6d0;
+	color: black;
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
@@ -109,12 +113,12 @@ figcaption{
 
 #menu li a:before {
 	content: '';
-	width: 30px;
+	width: 45px;
 	position: absolute;
-	border-bottom: 3px solid white;
+	border-bottom: 2px black;
 	bottom: 0;
-	right: 350px;
-	transition: 0.7s all;
+	right: 200px;
+	transition: 0.85s all;
 }
 
 #menu li a:hover:before {
@@ -122,6 +126,6 @@ figcaption{
 }
 
 #menu li a:hover {
-	color: white;
-	transition: 0.7s all;
+	color: black;
+	transition: 0.85s all;
 }
