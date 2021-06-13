@@ -77,16 +77,16 @@ figcaption{
 	  font-size: 10px;
 }
 
-#menu1 li {
+#menu li {
 	list-style: none;
-	display: inline-block; /*from original css*/
+	display: inline-block;
 
 }
 
-#menu1 li:not(.current-page) a {
+#menu li:not(.current-page) a {
 	text-decoration: none;
 	position: relative;
-	color: #dbd6d0; /*change later*/
+	color: #dbd6d0;
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
@@ -95,10 +95,10 @@ figcaption{
 	padding: 10px 20px;
 }
 
-.current-page a {
+.currentpage a {
 	text-decoration: none;
 	position: relative;
-	color: #623f58; /*change later*/
+	color: #623f58; 
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
@@ -107,7 +107,7 @@ figcaption{
 	padding: 10px 20px;
 }
 
-#menu1 li a:before {
+#menu li a:before {
 	content: '';
 	width: 30px;
 	position: absolute;
@@ -117,11 +117,11 @@ figcaption{
 	transition: 0.7s all;
 }
 
-#menu1 li a:hover:before {
+#menu li a:hover:before {
 	right: 0;
 }
 
-#menu1 li a:hover {
+#menu li a:hover {
 	color: white;
 	transition: 0.7s all;
 }
