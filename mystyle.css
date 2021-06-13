@@ -1,3 +1,40 @@
+header{
+	height: 80px;
+	line-height: 10px;
+	position: fixed;
+	z-index:1;
+	width: 100%;
+	background-color: #b30000; 
+	box-shadow: 0px 0px 10px 0px;
+}
+.title{
+	color: black; 
+	font-size: 20px;
+	font-family: Helvetica;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-decoration: none;
+	display: inline-block;
+}
+header nav {
+	float: right;
+	padding-right: 40px;
+}
+#menu li {
+	list-style: none;
+	display: inline-block;
+
+}
+#menu li a {
+	text-decoration: none;
+	position: relative;
+	color: black; 
+	font-size: 20px;
+	font-family: Helvetica;
+	display: block;
+	overflow: hidden;
+	padding: 10px 20px;
+}
 body{
   background-color: #ffe6b3;
   border: medium solid black;
@@ -75,43 +112,4 @@ figure#fork{
 figcaption{
 	  text-align: center;
 	  font-size: 10px;
-}
-header{
-	height: 80px;
-	line-height: 20px;
-	position: fixed;
-	z-index:1;
-	width: 100%;
-	background-color: #b30000; 
-	box-shadow: 0px 0px 10px 0px;
-}
-.title{
-	color: black; 
-	font-size: 18px;
-	font-family: Helvetica;
-	font-variant-caps: caps;
-	padding-top: 30px;
-	padding-left: 50px;
-	text-decoration: none;
-	display: inline-block;
-}
-header nav {
-	float: right;
-	padding-right: 40px;
-}
-#menu li {
-	list-style: none;
-	display: inline-block;
-
-}
-#menu li a {
-	text-decoration: none;
-	position: relative;
-	color: black; 
-	font-size: 18px;
-	font-family: Helvetica;
-	font-variant-caps: caps;
-	display: block;
-	overflow: hidden;
-	padding: 10px 20px;
 }
