@@ -83,13 +83,13 @@ header
 	position: fixed;
 	z-index:1;
 	width: 100%;
-	background-color: #8b9a8c; 
+	background-color: #b30000; 
 	box-shadow: 0px 0px 17px 0px;
 	transition: all 0.3s ease-in;
 }
 
 .title{
-	color: #3e3731; /*change later*/
+	color: black; 
 	font-size: 18px;
 	font-family: sans-serif;
 	font-variant-caps: small-caps;
@@ -106,14 +106,14 @@ header nav {
 
 #menu li {
 	list-style: none;
-	display: inline-block; /*from original css*/
+	display: inline-block;
 
 }
 
 #menu li a {
 	text-decoration: none;
 	position: relative;
-	color: #3e3731; /*change later*/
+	color: black; 
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
@@ -126,7 +126,7 @@ header nav {
 	content: '';
 	width: 30px;
 	position: absolute;
-	border-bottom: 3px solid #623F55;
+	border-bottom: 3px black;
 	bottom: 0;
 	right: 350px;
 	transition: 0.7s all;
@@ -137,6 +137,6 @@ header nav {
 }
 
 #menu li a:hover {
-	color: #623F55;
+	color: black;
 	transition: 0.7s all;
 }
