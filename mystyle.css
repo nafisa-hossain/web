@@ -76,67 +76,42 @@ figcaption{
 	  text-align: center;
 	  font-size: 10px;
 }
-header
-{
+header{
 	height: 80px;
 	line-height: 20px;
 	position: fixed;
 	z-index:1;
 	width: 100%;
 	background-color: #b30000; 
-	box-shadow: 0px 0px 17px 0px;
-	transition: all 0.3s ease-in;
+	box-shadow: 0px 0px 10px 0px;
 }
-
 .title{
 	color: black; 
 	font-size: 18px;
 	font-family: Helvetica;
-	font-variant-caps: small-caps;
+	font-variant-caps: caps;
 	padding-top: 30px;
 	padding-left: 50px;
 	text-decoration: none;
 	display: inline-block;
 }
-
 header nav {
 	float: right;
 	padding-right: 40px;
 }
-
 #menu li {
 	list-style: none;
 	display: inline-block;
 
 }
-
 #menu li a {
 	text-decoration: none;
 	position: relative;
 	color: black; 
 	font-size: 18px;
 	font-family: Helvetica;
-	font-variant-caps: small-caps;
+	font-variant-caps: caps;
 	display: block;
 	overflow: hidden;
 	padding: 10px 20px;
-}
-
-#menu li a:before {
-	content: '';
-	width: 30px;
-	position: absolute;
-	border-bottom: 3px black;
-	bottom: 0;
-	right: 350px;
-	transition: 0.7s all;
-}
-
-#menu li a:hover:before {
-	right: 0;
-}
-
-#menu li a:hover {
-	color: black;
-	transition: 0.7s all;
 }
