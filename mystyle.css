@@ -82,37 +82,51 @@ header nav {
 	padding-right: 40px;
 }
 
-#menu li {
-	display: inline-block;
+#menu1 li {
+	list-style: none;
+	display: inline-block; /*from original css*/
+
 }
 
-#menu li a {
+#menu1 li:not(.current-page) a {
 	text-decoration: none;
 	position: relative;
-	float: right;
-	color: #3e3731;
+	color: #dbd6d0; /*change later*/
 	font-size: 18px;
-	font-family: Helvetica, sans-serif;
+	font-variant-caps: small-caps;
+	font-family: sans-serif;
 	display: block;
 	overflow: hidden;
 	padding: 10px 20px;
 }
 
-#menu li a:before {
+.current-page a {
+	text-decoration: none;
+	position: relative;
+	color: #623f58; /*change later*/
+	font-size: 18px;
+	font-variant-caps: small-caps;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	padding: 10px 20px;
+}
+
+#menu1 li a:before {
 	content: '';
 	width: 30px;
 	position: absolute;
-	border-bottom: 3px solid #623F55;
+	border-bottom: 3px solid white;
 	bottom: 0;
 	right: 350px;
 	transition: 0.7s all;
 }
 
-#menu li a:hover:before {
+#menu1 li a:hover:before {
 	right: 0;
 }
 
-#menu li a:hover {
-	color: #623F55;
+#menu1 li a:hover {
+	color: white;
 	transition: 0.7s all;
 }
