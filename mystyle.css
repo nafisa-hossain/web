@@ -76,33 +76,47 @@ figcaption{
 	  text-align: center;
 	  font-size: 10px;
 }
+header
+{
+	height: 80px;
+	line-height: 20px;
+	position: fixed;
+	z-index:1;
+	width: 100%;
+	background-color: #8b9a8c; 
+	box-shadow: 0px 0px 17px 0px;
+	transition: all 0.3s ease-in;
+}
+
+.logo {
+	color: #3e3731; /*change later*/
+	font-size: 18px;
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-decoration: none;
+	display: inline-block;
+}
+
 header nav {
 	float: right;
 	padding-right: 40px;
 }
+
 #menu li {
 	list-style: none;
-	display: inline-block;
-}
-#menu li:not(.current-page) a {
-	text-decoration: none;
-	position: relative;
-	color: black;
-	font-size: 18px;
-	font-variant-caps: caps;
-	font-family: 	Helvetica, sans-serif;
-	display: block;
-	overflow: hidden;
-	padding: 10px 20px;
+	display: inline-block; /*from original css*/
+
 }
 
-.currentpage a {
+#menu li a {
 	text-decoration: none;
 	position: relative;
-	color: #623f58; 
+	color: #3e3731; /*change later*/
 	font-size: 18px;
-	font-variant-caps:caps;
-	font-family: Helvetica, sans-serif;
+	font-variant-caps: small-caps;
+	font-family: sans-serif;
 	display: block;
 	overflow: hidden;
 	padding: 10px 20px;
@@ -110,12 +124,12 @@ header nav {
 
 #menu li a:before {
 	content: '';
-	width: 45px;
+	width: 30px;
 	position: absolute;
-	border-bottom: 3px black;
+	border-bottom: 3px solid #623F55;
 	bottom: 0;
-	right: 300px;
-	transition: 0.75s all;
+	right: 350px;
+	transition: 0.7s all;
 }
 
 #menu li a:hover:before {
@@ -123,6 +137,6 @@ header nav {
 }
 
 #menu li a:hover {
-	color: black;
-	transition: 0.75s all;
+	color: #623F55;
+	transition: 0.7s all;
 }
