@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+   	<title>Python Final Project</title>
+	<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+	<h1> PYTHON SCRABBLE WORD FINDER </h1>
+		<h2 id="s1">DABBLE WITH SCRABBLE!</h2>
+		<h2>MOMOCA MAIRAJ, IFFAT ANISHA, NAFISA HOSSAIN</h2>
+		<h2>PERIOD 4</h2>
+	<img id="sitepic" src="https://assets.thalia.media/img/artikel/dc30df6ef0ba62f34ad7fabcb2e5e8d5fce1df21-00-00.jpeg" alt="scrabble" />
+	<ul>
+     		<h3>Project Description</h3>
+			<p>TThis is a mock Scrabble wordfinder made from python. It will allow a player to find the best words to use during a Scrabble game.</p>	
+		<h3>Instructions</h3> 
+			<p>To use the scrabble dictionary, call the 'findword' program and insert the word you would like to check as a string. If it is a valid word in the scrabble dictionary, it will return the word with the number of points it is worth.</p>
+		<br>
+			<p>To use the scrabble word finder, input the letters you wish to check as separate strings. It will return a list of all possible combinations of real words with the letters as well as their point values according to the official scrabble rules. </p>
+		<h3>How it works</h3>
+			<h4>Using Scrabble Dictionary</h4>
+  			<p>The goal of Scrabble is to create words with the greatest point-value, regardless of how big or small the word is. With Scrabble Dictionary, you can familiarize yourself with words that have greater point-values, and use what you’ve learned to win a real Scrabble game. The function tells you to input any word, with any number of letters, as a string. It will return a number value that shows how many points the word is worth. The official values of Scrabble tiles from the actual game are encoded into the function, so you can ensure an accurate value for the word you input. Play around with different words and see how the value of the words change!</p>
+  	<ul>
+	  	<li>1 POINT: </li>
+			  <p> A, E, I, O, U, L, N, S, T, R </p>
+	  	<li>2 POINTS: </li>
+			  <p> D, G </p>
+	  	<li>3 POINTS: </li>
+			  <p>B, C, M, P</p>
+	  	<li>4 POINTS.py: 
+			  <p>F, H, V, W, Y</p>
+	  	<li>5 POINTS: </li>
+			  <p>K</p>
+	  	<li>8 POINTS: </li>
+			  <p>J, X</p>
+      		<li>10 POINTS: </li>
+			  <p>Q, Z</p>
+  </ul>
+		<h4>Using Scrabble Word Finder</h4>
+  		<p>The function Scrabble Word Finder puts all the skills you need for Scrabble together to help guide you through the game. It combines Scrabble Dictionary and the subset function to give you a list of words you can use in the game. All you do is input however many letters you like as a string, and the coding does the work for you! The letters are formed into subsets using the subset function, and the subsets are checked to see if they are considered real words using the Scrabble dictionary file, which is encoded into the code. The file has all the words A-Z that are allowed for points in a real Scrabble game. After the real words are confirmed, the point counting function (Using Scrabble Dictionary) is used to find the point values of every subset. The function returns every word along with its point value. Use this function to see all the possibilities of words you can make given the Scrabble tiles you have, as well as finding the words with the greatest point value, all with one function!</p>
+		<h4>Itertools</h4>
+  		<p>The additional python module that we wanted to integrate into our project is called Itertools. Essentially, as the name implies, it is used to iterate over data structures called ‘iteratables’ using for-loops. This module is used mainly for efficiency and to elevate the readability of the code. There are two subtypes of itertools, infinite and finite. Infinite iterators run forever unless it is coded to stop otherwise, while finite iterators can come to a stop. The two that we wanted to incorporate were chain and combinations. The combination () function returns x length that we would input as all the possible combinations of the string. Permutation in Itertools is a tool that returns a sequential ‘x’ length permutations of the elements within the iterable. If the ‘x’ value is not defined, or there is none, then the program automatically defaults to the length of the iterable itself, and all of the possible full length permutations are generated. Permutations are printed in sorted lexical order. Lexical order is most commonly seen in dictionaries where the list is sorted alphabetically and the symbols follow a specified sequence. So, if the input iterable is sorted, the unchangeable elements that are being recombined will create a sorted order. We used Itertools to get the powerset of an input, as it would require other elements of python we have not gone over to execute from scratch otherwise.</p>
+		<h3>Files</h3>
+	<ul>
+	  	<li>final.html: </li>
+			<p>This html file </p>
+	  	<li>scrabble.py: </li>
+			<p>This is the python program.</p>
+	  	<li>scrabble.txt: </li>
+			<p>This is a file of all possible words in Scrabble, which was used in the Scrabble Word Finder function.</p>
+		<li>mystyle.css: </li>
+			 <p>This is the css for our website.</p>
+	</ul>
+		<h3>Resources</h3>
+	<ul>
+	 	<li><a href="https://drive.google.com/file/d/1oGDf1wjWp5RF_X9C7HoedhIWMh5uJs8s/view">2019 Full Scrabble Dictionary</a></li> 
+	</ul>
+		<h3>Bugs, Errors and Things to be Aware of</h3>
+	<ul>
+		<p> 
+			<br>
+			For the Scrabble Dictionary function, since the file that is needed to read is very large, the function does not output anything for a long time, because it takes a while to load. </p> </li>
+			<br>
+			For the Scrabble Word Finder function, it will only work if you have a lot of space on your device, because the file is so large. The more storage you have on your computer, the greater probability that the function will work.</p> </li>
+	</ul>
+    	</ul>
+</body>
+</html>
