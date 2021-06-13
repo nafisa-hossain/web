@@ -88,7 +88,7 @@ header
 	transition: all 0.3s ease-in;
 }
 
-.logo {
+.title{
 	color: #3e3731; /*change later*/
 	font-size: 18px;
 	font-family: sans-serif;
