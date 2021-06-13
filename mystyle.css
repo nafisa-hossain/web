@@ -1,6 +1,6 @@
 header{
 	height: 50px;
-	line-height: 15px;
+	line-height: 20px;
 	position: fixed;
 	z-index:1;
 	width: 100%;
@@ -9,22 +9,20 @@ header{
 }
 .title{
 	color: black; 
-	font-size: 20px;
+	font-size: 15px;
 	font-family: Helvetica;
-	padding-top: 30px;
-	padding-left: 50px;
-	text-decoration: none;
+	padding-top: 25px;
+	padding-left: 25px;
 	display: inline-block;
 }
 .currentpage a {
-	text-decoration: none;
 	position: relative;
 	color: black;
 	font-size: 15px;
 	font-family: Helvetica;
 	display: block;
 	overflow: hidden;
-	padding: 10px 15px;
+	padding: 10px 20px;
 }
 header nav {
 	float: right;
@@ -36,7 +34,6 @@ header nav {
 
 }
 #menu li a {
-	text-decoration: none;
 	position: relative;
 	color: black; 
 	font-size: 20px;
@@ -59,14 +56,6 @@ header nav {
 	font-family: Helvetica;
 	color: #b30000;
 }
-
-#canto-intro {
-	padding-top:20%;
-	padding-bottom: 20%;
-	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(https://sofitel.accor.com/destinations/imagerie/guangzhou_panorama_photo_1-c2db_1400x788.jpg);
-	background-position: center;
-	background-attachment: fixed;
-}
 body{
   	background-color: #ffe6b3;
   	border: black;
@@ -82,13 +71,9 @@ h2{
   	font-family: Helvetica;
   	text-align: center;
 }
-
 li{
  	color: black;
   	font-weight: bold;
-}
-* {
-  	box-sizing: border-box;
 }
 p{
   margin-right: 40px;
