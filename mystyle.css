@@ -28,17 +28,17 @@ header nav {
 	float: right;
 	padding-right: 40px;
 }
-#tabs {
+#menu {
 	list-style-type: none;
 	background-color: #b30000;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-#tabs li {
+#menu li {
 	float:right;
 }
-#tabs li a {
+#menu li a {
 	padding: 14px 16px;
 	text-decoration: none;
 	text-align: center;
