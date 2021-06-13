@@ -1,8 +1,8 @@
 header{
-	height: 80px;
-	line-height: 20px;
+	height: 60px;
+	line-height: 15px;
 	position: fixed;
-	z-index:0;
+	z-index:-5;
 	width: 100%;
 	background-color: #b30000; 
 	transition: all 0.3s ease-in;
@@ -12,14 +12,13 @@ header{
 	font-size: 18px;
 	font-family: Helvetica;
 	font-variant-caps: all-small-caps;
-	padding-top: 30px;
 	padding-left: 50px;
 	text-decoration: none;
 	display: inline-block;
 }
 header nav {
 	float: right;
-	padding-right: 40px;
+	padding-right: 0px;
 }
 #menu li {
 	list-style: none;
