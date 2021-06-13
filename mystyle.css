@@ -113,6 +113,7 @@ header nav {
 }
 
 #menu1 li a:before {
+	content: '';
 	width: 45px;
 	position: absolute;
 	border-bottom: 4px black;
