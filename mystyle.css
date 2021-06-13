@@ -13,15 +13,15 @@ h2{
   	text-align: center;
 }
 h3{
-color: #b30000;
-  font-family: Helvetica;
+	color: #b30000;
+  	font-family: Helvetica;
 }
 li{
  	color: black;
   	font-weight: bold;
 }
 p{
-  margin-right: 40px;
+  	margin-right: 40px;
 }
 img#sitepic {
 	width: 400px;
