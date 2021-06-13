@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<html>
+  <head>
+   <title>site.html</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+  
+<body>
+<link rel="stylesheet" href="mystyle.css">
+<h1> PYTHON SCRABBLE WORDFINDER </h1>
+
+<h2 id="s1">What even is chess?</h2>
+
+ <img id="sitepic" src="https://assets.thalia.media/img/artikel/dc30df6ef0ba62f34ad7fabcb2e5e8d5fce1df21-00-00.jpeg" alt="scrabble" />
+<ul>
+      <li><h3><a href="#">Project Link</a></h3><h3></h3></li>
+      <li>
+	<h3>Project Description</h3>
+	<p>This is a mock Scrabble wordfinder and Scrabble wordfinder made from python.</p>	
+      </li>
+      <li>
+	<h3>Instructions</h3>
+	<p>To use the scrabble dictionary, call the 'findword' program and insert the word you would like to check as a string. If it is a valid word in the scrabble dictionary, it will return the word with the number of points it is worth. I </p>
+	</li>
+      <li>
+	<h3>How it works</h3>
+	<p>The full list of cards and their properties (including links to pictures) is saved in a .csv file. The card pictures are all stored in a separate directory. When a user searches, a python program reads the csv file into a list of dictionaries where each dictionary entry is one card with keys representing card properties (name, type, faction, side, cost, health, damage icons). The program then uses the query string to search for the card(s). To make things easier, when searching for the name of a card, the strings are all changed to lowercase. But users muse give the exact name of the card, otherwise no match will be found. Searches are preformed by going through the list of cards and checking the values for whatever key is being yused to search. All matches entries are put into a list of results. For example, if the user searches by card name, then the results list would only have one entry, but if the the user searches for side (light or dark), the results list will have many entries. If the results list has only one entry, the program generates a single card page that inlcudes all the card information and a picture. If there are multiple results, the program generates a page with a table, each row containing basic information about the card and a link that will then generate the single card page.</p>
+      </li>
+      <li>
+	<h3>Files</h3>
+	<ul>
+	  <li>final.html: This html file</li>
+	  <li>main.html: The main landing page for the project, containing the search form.</li>
+	  <li>search.py: Python prgram that is the action for the form in main.html. Reposinsible for parsing the quesry string, loading the cards into a dictionary and responding to the query. Calls functions in page_maker.py</li>
+	  <li>page_maker.py: Python program that generates the html pages for single or multiple card search results</li>
+	  <li>swlcg_cards_full.csv: csv file of all cards</li>
+	  <li>card_images/*: Directory containing images for each card, organized by a unique id number, These images were not uploaded to the homework server.</li>
+	</ul>
+      </li>
+      <li>
+	<h3>Resources</h3>
+	<ul>
+	  <li>Card information: <a href="http://www.cardgamedb.com/index.php/starwars/star-wars-card-spoilers">http://www.cardgamedb.com/index.php/starwars/star-wars-card-spoilers</a></li>
+	  <li>Card images: <a>http://picsofswlcgcards.com</a>
+	</li></ul>
+      </li>
+      <li>
+	<h3>Bugs, Errors and Things to be Aware of</h3>
+	<ul>
+	  <li>
+	    Searching by name must be an exact name match (aside from capitalization).
+	  </li>
+	  <li>
+	    If you try to seach by multiple categories, only the first one with data will be used.
+	  </li>
+	  <li>
+	    A maximum of 100 cards will be displayed, even if there are more matches.
+	  </li>
+	</ul>
+      </li>
+    </ul>
+</body>
+</html>
