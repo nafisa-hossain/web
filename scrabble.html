@@ -19,12 +19,10 @@
 			<p>The full list of cards and their properties (including links to pictures) is saved in a .csv file. The card pictures are all stored in a separate directory. When a user searches, a python program reads the csv file into a list of dictionaries where each dictionary entry is one card with keys representing card properties (name, type, faction, side, cost, health, damage icons). The program then uses the query string to search for the card(s). To make things easier, when searching for the name of a card, the strings are all changed to lowercase. But users muse give the exact name of the card, otherwise no match will be found. Searches are preformed by going through the list of cards and checking the values for whatever key is being yused to search. All matches entries are put into a list of results. For example, if the user searches by card name, then the results list would only have one entry, but if the the user searches for side (light or dark), the results list will have many entries. If the results list has only one entry, the program generates a single card page that inlcudes all the card information and a picture. If there are multiple results, the program generates a page with a table, each row containing basic information about the card and a link that will then generate the single card page.</p>
 		<h3>Files</h3>
 	<ul>
-	  	<li>final.html: 
+	  	<li>final.html: </li>
 			<p>This html file </p>
-			</li>
-	  	<li>main.html: 
+	  	<li>main.html: </li>
 			<p>The main landing page for the project, containing the search form. </p>
-			</li>
 	  	<li>search.py: 
 			<p>Python prgram that is the action for the form in main.html. Reposinsible for parsing the quesry string, loading the cards into a dictionary and responding to the query. Calls functions in page_maker.py </p>
 			</li>
