@@ -88,22 +88,10 @@ header nav {
 
 }
 
-#menu1 li:not(.current-page) a {
+#menu1 li a {
 	text-decoration: none;
 	position: relative;
 	color: #dbd6d0; /*change later*/
-	font-size: 18px;
-	font-variant-caps: small-caps;
-	font-family: sans-serif;
-	display: block;
-	overflow: hidden;
-	padding: 10px 20px;
-}
-
-.current-page a {
-	text-decoration: none;
-	position: relative;
-	color: #623f58; /*change later*/
 	font-size: 18px;
 	font-variant-caps: small-caps;
 	font-family: sans-serif;
