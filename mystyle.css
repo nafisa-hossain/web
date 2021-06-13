@@ -18,13 +18,13 @@ header{
 }
 .currentpage a {
 	text-decoration: none;
-	position: absolute;
+	position: relative;
 	color: black;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: Helvetica;
 	display: block;
 	overflow: hidden;
-	padding: 10px 20px;
+	padding: 10px 15px;
 }
 header nav {
 	float: right;
@@ -46,72 +46,38 @@ header nav {
 	padding: 10px 20px;
 }
 body{
-  background-color: #ffe6b3;
-  border: medium solid black;
+  	background-color: #ffe6b3;
+  	border: medium solid black;
 }
 
 h1{
- font-family: Helvetica, sans-serif;
-  text-align: center;
-  font-size: 60px;
+  	font-family: Helvetica;
+  	text-align: center;
+  	font-size: 60px;
 }
-
 h2{
-color: #b30000;
-  font-family: 'Georgia', serif;
-  text-align: center;
+	color: #b30000;
+  	font-family: Helvetica;
+  	text-align: center;
 }
-
 th#filler{
-color: ivory;
+	color: ivory;
 }
-
 li{
-  color: black;
-  font-weight: bold;
-  
+ 	color: black;
+  	font-weight: bold;
 }
-
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 p{
   margin-right: 40px;
 }
 img#sitepic {
-width: 400px;
- height: 200px;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid #663300;
-}
-
-img#piece{
-  
-  width: 100px;
- height: 180px;
- border: solid #663300;
- 
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-border: solid #663300;
+	width: 400px;
+ 	height: 200px;
+ 	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	border: solid #663300;
 }
